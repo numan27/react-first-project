@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+/* Custom */
+
+.primary-color {
+  color: #ea17f3 !important;
+}
+.primary-bg {
+  background-color: #ea17f3 !important;
+}
+.secondary-bg {
+  background-color: #31a6f4 !important;
+}
+.secondary-color {
+  color: #31a6f4 !important;
+}
+.custom-heading h2 {
+  max-width: 50%;
+  font-size: 46px;
+  font-weight: 900;
+}
+.custom-heading p {
+  max-width: 50%;
+  font-size: 17px;
+  color: #90909c;
+  font-weight: 500;
+}
+p {
+  font-size: 17px;
+  color: #90909c;
+  font-weight: 500;
+}
+h2 {
+  font-size: 46px !important;
+  font-weight: 900 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hero Section */
+
+.hero-section {
+  background-image: url("./assets/home-header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  width: 100%;
+  height: 92vh;
+}
+.content {
+  padding-top: 100px;
+}
+.content button {
+  text-transform: uppercase;
+  border: none !important;
+  text-wrap: none !important;
+}
+.content h1 {
+  font-size: 80px !important;
+  font-weight: bold !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-card {
+  background: linear-gradient(180deg, #c0c4e2, #6555a6, #412e91, #1c0672);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+
+.navbar {
+  padding: 0 !important;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.registerBtn {
+  --bs-btn-border-color: #ea17f3 !important;
+  border-color: #ea17f3 !important;
+}
+.registerBtn:hover {
+  background-color: transparent !important;
+}
+.navbar-toggler-icon {
+  filter: invert(100%) !important;
+}
+.navbar-toggler {
+  box-shadow: none !important;
+}
+
+/* How It works */
+.cardsContainer .cardItem h4 {
+  font-weight: 700 !important;
+}
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 20px !important;
+  margin-top: 40px;
+}
+
+.cardItem {
+  background: linear-gradient(90deg, #ece3f3, #d2dbf2);
+  padding: 38px 90px 50px 32px;
+  border-radius: 16px;
+}
+
+.iconContainer {
+  background-color: black !important;
+  border-radius: 100%;
+  width: 54px !important;
+  height: 54px !important;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 18px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* /* Feature Section */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.feature-section img {
+  width: 100% !important;
 }
